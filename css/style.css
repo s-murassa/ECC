@@ -1,0 +1,36 @@
+ 
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Ranchers', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Fredoka One', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Raleway:400,500,600,700|Ranchers|Righteous');
+ 
+body{background: url('../images/mainbgred2.jpg') fixed; background-color:#fff;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif; color:#000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+ 
+
+#lgo{position:relative;  float: left; width:50%; height: 90px; padding:0px; margin:0px; margin-left:70px; margin-right:auto;}
+
+.eml{ float:right; margin:0; padding:0; z-index:1000;}
+ 
+.bg-head { background-color: #fff; }
+.bg-nav ul a.nav-link  { padding-top:0px; padding-bottom:0px;}
+@media (min-width: 1200px) {
+.bg-nav ul a.nav-link  {-webkit-transition: 0.5s ease;  }
+.bg-nav ul a.nav-link:hover{transform:scale(1.1);}
+}
+
+.navbar-toggler{background-color:#fff;}
+.txcolor{color:#011b44;}
+a.btn{color:#b20101;}
+a.btn:hover{color:#76db82;}
+
+#slds{margin-top:40px;}
+#about{padding-top:50px; padding-bottom:30px;}
+#portfolio{padding-top:120px;}
+#cntdetails{padding-top:0px; margin-top:0px;}
